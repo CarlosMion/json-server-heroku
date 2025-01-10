@@ -1,16 +1,189 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "1",
+      "fullName": "Charlene Reed",
+      "userName": "charlenereed",
+      "email": "charlenereed@gmail.com",
+      "password": "123456C12",
+      "birthDate": "1990-01-25T00:00:00.000Z",
+      "headline": "Software Engineer",
+      "currentAddress": "San Jose, California, USA",
+      "permanentAddress": "San Jose, California, USA",
+      "city": "San Jose",
+      "postalCode": "35962",
+      "country": "USA",
+      "profilePictureUrl": "https://res.cloudinary.com/magicall/image/upload/v1736390592/7de84d22-aa2f-4125-ab20-bd98414bca73.png"
+    },
+    {
+      "id": "2",
+      "fullName": "Charlene Reed",
+      "userName": "charlenereed",
+      "email": "charlenereed@gmail.com",
+      "password": "123456C111",
+      "birthDate": "1990-01-25T00:00:00.000Z",
+      "headline": "Software Engineer",
+      "currentAddress": "San Jose, California, USA",
+      "permanentAddress": "San Jose, California, USA",
+      "city": "San Jose",
+      "postalCode": "35962",
+      "country": "USA",
+      "profilePictureUrl": "https://res.cloudinary.com/magicall/image/upload/v1736390592/7de84d22-aa2f-4125-ab20-bd98414bca73.png"
     }
   ],
-  "comments" : [
+  "creditCards": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "userId": "1",
+      "balance": 1000,
+      "cardNumber": 3778567890121235,
+      "expirationDate": "2022-12-22T00:00:00.000Z"
+    },
+    {
+      "userId": "1",
+      "balance": 0,
+      "cardNumber": 1234567890123778,
+      "expirationDate": "2030-01-31T00:00:00.000Z"
+    },
+    {
+      "userId": "1",
+      "balance": 123.75,
+      "cardNumber": 9134567890124215,
+      "expirationDate": "2025-06-25T00:00:00.000Z"
+    },
+    {
+      "userId": "1",
+      "balance": 1000,
+      "cardNumber": 4534567890123441,
+      "expirationDate": "2029-11-29T00:00:00.000Z"
+    }
+  ],
+  "recentTransactions": [
+    {
+      "title": "Credit Card Payment",
+      "source": "card",
+      "amount": -850,
+      "date": "2021-01-28T00:00:00.000Z"
+    },
+    {
+      "title": "Deposit Paypal",
+      "source": "bank",
+      "amount": 2500,
+      "date": "2021-01-25T00:00:00.000Z"
+    },
+    {
+      "title": "Jemi Wilson",
+      "source": "person",
+      "amount": 5400,
+      "date": "2021-01-25T00:00:00.000Z"
+    }
+  ],
+  "weeklyActivity": [
+    {
+      "day": "Sat",
+      "deposit": 125,
+      "withdraw": 325
+    },
+    {
+      "day": "Sun",
+      "deposit": 50,
+      "withdraw": 200
+    },
+    {
+      "day": "Mon",
+      "deposit": 200,
+      "withdraw": 100
+    },
+    {
+      "day": "Tue",
+      "deposit": 375,
+      "withdraw": 120
+    },
+    {
+      "day": "Wed",
+      "deposit": 200,
+      "withdraw": 150
+    },
+    {
+      "day": "Thu",
+      "deposit": 250,
+      "withdraw": 380
+    },
+    {
+      "day": "Fri",
+      "deposit": 350,
+      "withdraw": 400
+    }
+  ],
+  "expenseStatistics": [
+    {
+      "name": "Bill Expenses",
+      "value": 15
+    },
+    {
+      "name": "Enterntainment",
+      "value": 30
+    },
+    {
+      "name": "Investment",
+      "value": 20
+    },
+    {
+      "name": "Others",
+      "value": 35
+    }
+  ],
+  "friends": [
+    {
+      "userId": "123",
+      "name": "Livia Bator",
+      "headline": "CEO",
+      "pictureUrl": "https://res.cloudinary.com/magicall/image/upload/v1736538018/user-pic-3.png"
+    },
+    {
+      "userId": "234",
+      "name": "Randy Press",
+      "headline": "Director",
+      "pictureUrl": "https://res.cloudinary.com/magicall/image/upload/v1736537992/user-pic-2.png"
+    },
+    {
+      "userId": "345",
+      "name": "Workman",
+      "headline": "Designer",
+      "pictureUrl": "https://res.cloudinary.com/magicall/image/upload/v1736537922/User-pic-1.png"
+    }
+  ],
+  "balanceHistory": [
+    {
+      "date": "Jun",
+      "balance": 50
+    },
+    {
+      "date": "Jul",
+      "balance": 1000
+    },
+    {
+      "date": "Aug",
+      "balance": 500
+    },
+    {
+      "date": "Sep",
+      "balance": 2000
+    },
+    {
+      "date": "Oct",
+      "balance": 1150
+    },
+    {
+      "date": "Nov",
+      "balance": 1000
+    },
+    {
+      "date": "Dec",
+      "balance": 1725
+    },
+    {
+      "date": "Jan",
+      "balance": 2150
     }
   ]
 }
